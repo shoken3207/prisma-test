@@ -1,6 +1,5 @@
 import express, { Request, Response } from "express";
-import { PrismaClient } from "@prisma/client";
-import { getUserByEmail, getUsers } from "./services/user";
+import { getUserByEmail, getUsers } from "./services/userService";
 
 const app = express();
 const PORT = 5000;
